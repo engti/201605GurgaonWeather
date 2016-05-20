@@ -1,4 +1,4 @@
-# Does it feel hotter than usual?
+# Does Gurgaon feel hotter than usual?
 
 ## What I wanted to know
 It's the 20th of May 2016, and Gurgaon is a furnace. It felt hotter than usual, and corroboration would have been nice. So to quantify this feeling we look at the maximum temperature for Gurgaon over the past 10 years. This [script](gurgaonWeather.r) was used to create the following plot.
