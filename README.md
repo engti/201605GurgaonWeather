@@ -5,6 +5,8 @@ It's the 20th of May 2016, and Gurgaon is a furnace. It felt hotter than usual, 
 ### What do we see
 ![Gurgaon Weather Yearly Maximum Temperature Plot 2006-2016](Rplot05.png)  
 It does look to me like that 2016 has seen more hotter days than over the past few years. A small shift in median temperature can make things feel substantially different.
+#### Weather type and temperature range
+![Gurgaon Weather Yearly Maximum Temperature Trend Plot 2006-2016 by weather type](Rplot07.png) 
 
 ## Aims of this project
 Since I was anyway trying to learn R, and found the Coursera course on [Reproducibility](https://www.coursera.org/learn/reproducible-research) highly enjoyable. I will try to showcase the steps taken to reach our above plot output. The steps involved are:  
@@ -29,7 +31,7 @@ The weather data is fetched from Wunderground, who helpfully provide a url which
 
     https://www.wunderground.com/history/airport/VIDP/2016/5/19/MonthlyHistory.html?req_city=Gurgaon&req_statename=India&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=42178&format=1
 
-The script starts by taking the above url apart and putting it together by contructing a date sequence. For instance you can change the ```yearRange``` variable and set the initial year and final year to get data for all the years between and including them. 
+The script starts by taking the above url apart and putting it together by contructing a date sequence. For instance you can change the ```yearRange``` variable and set the initial year and final year to get data for all the years between and including them.  
 
 ### Fetch Data from Wunderground
 We loop through the ```yearRange``` and get the weather data for all the days in month of ```mDate``` for the given range of years.  Changing the date in ```dDate``` doesn't seem to affect the output result. 
