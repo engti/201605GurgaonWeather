@@ -1,6 +1,9 @@
 ## load libraries
   library(dplyr)
   library(lubridate)
+  ## ggplot is from gitub branch b181e9a, since the version on CRAN as of May 2016 did not support subtitle on the charts
+  ## to install use the following 
+      ## devtools::install_github("hadley/ggplot2")
   library(ggplot2)
   
 ## fetch data from wunderground
