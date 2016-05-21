@@ -6,8 +6,10 @@ It's the 20th of May 2016, and Gurgaon is a furnace. It felt hotter than usual, 
 ![Gurgaon Weather Yearly Maximum Temperature Plot 2006-2016](Rplot05.png)  
 It does look to me like that 2016 has seen more hotter days than over the past few years. A small shift in median temperature can make things feel substantially different.
 #### Weather type and temperature range
-![Gurgaon Weather Yearly Maximum Temperature Trend Plot 2006-2016 by weather type](Rplot07.png) 
+![Gurgaon Weather Yearly Maximum Temperature Trend Plot 2006-2016 by weather type](Rplot09.png) 
 The weather around this time of the year seems to be driven to extremes. They are either very hot, or involve an element of thunderstorm.
+#### Wind Speed and Temperature Trend
+![Gurgaon Weather Yearly Maximum Temperature Trend Plot 2006-2016 by weather type](Rplot07.png)
 ## Aims of this project
 Since I was anyway trying to learn R, and found the Coursera course on [Reproducibility](https://www.coursera.org/learn/reproducible-research) highly enjoyable. I will try to showcase the steps taken to reach our above plot outputs. The steps involved are:  
 1. Fetch data  
